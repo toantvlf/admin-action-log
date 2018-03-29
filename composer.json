@@ -1,0 +1,24 @@
+{
+  "name": "bsscommerce-lib/admin-action-log",
+  "type": "library",
+  "version": "1.0.0",
+  "description": "Convert text in module admin action log",
+  "keywords": ["admin action log", "action", "log"],
+  "homepage": "https://github.com/toantvlf/admin-action-log",
+  "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+  ],
+  "authors": [
+      {
+          "name": "Nicole",
+          "homepage": "https://bsscommerce.com/",
+          "role": "Developer"
+      }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Bss\\AdminActionLog\\Convert\\": "src/"
+    }
+  }
+}
